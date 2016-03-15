@@ -13,9 +13,6 @@ env:
   global:
   - ADB_INSTALL_TIMEOUT=8
 
-before_install:
- - chmod +x gradlew
-
 before_script:
 - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
 - emulator -avd test -no-skin -no-audio -no-window &
