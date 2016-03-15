@@ -24,4 +24,4 @@ before_script:
 
 script:
 - android list target
-- ./Travis/gradlew connectedAndroidTest
+- ./gradlew connectedAndroidTest
